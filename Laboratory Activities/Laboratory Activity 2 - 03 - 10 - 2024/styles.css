@@ -164,14 +164,14 @@ body {
     margin-top: 10px;
 }
 
+/* Daily Reminder Content */
+
 #reminder-icon {
     color: var(--accent-color);
-    font-size: 30px;
+    font-size: 40px;
     vertical-align: middle;
 }
 
-
-/* Daily Reminder Content */
 .daily-reminder-title {
     font-size: 30px;
     font-weight: 900;
