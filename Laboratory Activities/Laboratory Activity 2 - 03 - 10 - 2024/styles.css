@@ -1,3 +1,11 @@
+:root {
+    --background-color: rgb(55, 54, 64);
+    --main-container-color: rgb(99, 104, 110);
+    --mini-container-color: rgb(182, 247, 193);
+    --accent-color: rgb(65, 120, 160);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +13,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: radial-gradient(circle at center, rgb(0, 0, 0), rgb(55, 54, 64));
+    background-image: radial-gradient(circle at center, rgb(0, 0, 0), var(--background-color));
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -14,14 +23,20 @@ body {
 
 /* Containers */
 
+.danny1 {
+    margin-top: 300px;
+    margin-right: 100px;
+    width: 600px;
+}
+
 .main-container {
-    width: 1000px;
+    width: 1050px;
     height: 750px;
-    background-color: rgb(99, 104, 110);
+    background-color: var(--main-container-color);
     border-radius: 20px;
-    box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.137);
+    box-shadow: 0 0 20px 15px rgba(255, 255, 255, 0.361);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -29,8 +44,13 @@ body {
     margin: 20px;
     width: 200px;
     height: 500px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-item {
@@ -39,21 +59,26 @@ body {
 }
 
 .daily-reminder {
-    margin-left: 30px;
+    margin-left: 35px;
     margin-bottom: 10px;
     width: 450px;
     height: 150px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
-    border: 5px solid rgba(220, 0, 0, 0.826);
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .vision-board-title {
     margin: 10px;
     width: 500px;
     height: 250px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255)
 }
 
 .bottom-pics {
@@ -65,16 +90,20 @@ body {
     margin: 10px;
     width: 240px;
     height: 240px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+
 }
 
 .korea-pic {
     margin: 10px;
     width: 240px;
     height: 240px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+
 }
 
 .third-item {
@@ -86,26 +115,99 @@ body {
     margin: 20px;
     width: 200px;
     height: 200px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+
 }
 
 .second-pic {
     margin: 20px;
     width: 200px;
     height: 200px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+
 }
 
 .third-pic {
     margin: 20px;
     width: 200px;
     height: 200px;
-    background-color: rgb(182, 247, 193);
+    background-color: var(--mini-container-color);
     border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+
 }
 
 
 /* Contents */
 
+#goal-icon {
+    color: var(--accent-color);
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#target-icon{
+    margin: 10px;
+    color: var(--accent-color);
+    font-size: 150px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.goals-title {
+    margin: 10px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.goals-list {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 600;
+}
+
+.goals-list > p {
+    margin-top: 10px;
+}
+
+#reminder-icon {
+    color: var(--accent-color);
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.daily-reminder-title {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.quote {
+    margin-top: 5px;
+    font-family: Inconsolata, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.highlight-difficult {
+    background-color: lightyellow;
+    color: #d9534f; /* Red color */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.highlight-complex {
+    background-color: lightyellow;
+    color: #d9534f; /* Red color */
+    font-weight: bold;
+    text-decoration: underline;
+}
