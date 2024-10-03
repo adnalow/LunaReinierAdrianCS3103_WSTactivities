@@ -47,6 +47,7 @@ body {
     background-color: var(--mini-container-color);
     border-radius: 30px;
     border: 5px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.384); /* Shadow for elevation */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,8 +69,9 @@ body {
     border: 5px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.384);
 }
 
 .vision-board-title {
@@ -78,7 +80,12 @@ body {
     height: 250px;
     background-color: var(--mini-container-color);
     border-radius: 30px;
-    border: 5px solid rgb(255, 255, 255)
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.384);
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom-pics {
@@ -90,20 +97,12 @@ body {
     margin: 10px;
     width: 240px;
     height: 240px;
-    background-color: var(--mini-container-color);
-    border-radius: 30px;
-    border: 5px solid rgb(255, 255, 255);
-
 }
 
 .korea-pic {
     margin: 10px;
     width: 240px;
     height: 240px;
-    background-color: var(--mini-container-color);
-    border-radius: 30px;
-    border: 5px solid rgb(255, 255, 255);
-
 }
 
 .third-item {
@@ -111,38 +110,13 @@ body {
     flex-direction: column;
 }
 
-.first-pic {
+.pic-container {
     margin: 20px;
     width: 200px;
     height: 200px;
-    background-color: var(--mini-container-color);
-    border-radius: 30px;
-    border: 5px solid rgb(255, 255, 255);
-
 }
 
-.second-pic {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-    background-color: var(--mini-container-color);
-    border-radius: 30px;
-    border: 5px solid rgb(255, 255, 255);
-
-}
-
-.third-pic {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-    background-color: var(--mini-container-color);
-    border-radius: 30px;
-    border: 5px solid rgb(255, 255, 255);
-
-}
-
-
-/* Contents */
+/* Goals Content */
 
 #goal-icon {
     color: var(--accent-color);
@@ -185,8 +159,9 @@ body {
     vertical-align: middle;
 }
 
+
+/* Daily Reminder Content */
 .daily-reminder-title {
-    margin-top: 20px;
     font-size: 30px;
     font-weight: 900;
 }
@@ -195,7 +170,7 @@ body {
     margin-top: 5px;
     font-family: Inconsolata, sans-serif;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .highlight-difficult {
@@ -210,4 +185,50 @@ body {
     color: #d9534f; /* Red color */
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Middle Container */
+
+.vision-board-text {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.name {
+    font-family: Inconsolata, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+/* Japan pic */
+
+.j-pic {
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.384);
+    border: 5px solid rgb(255, 255, 255);
+    
+}
+
+/* Korea pic */
+
+.k-pic {
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.384);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+/* last 3 pics */
+
+.pic-format {
+    width: 200px;
+    height: 200px;
+    background-color: var(--mini-container-color);
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.384);
+    border: 5px solid rgb(255, 255, 255);
 }
