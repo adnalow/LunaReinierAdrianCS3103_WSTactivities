@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: radial-gradient(circle at center, rgb(0, 0, 0), rgb(55, 54, 64));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Containers */
+
+.main-container {
+    width: 1000px;
+    height: 750px;
+    background-color: rgb(99, 104, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.137);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.goals-container{
+    margin: 20px;
+    width: 200px;
+    height: 500px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+.second-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-reminder {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 150px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+    border: 5px solid rgba(220, 0, 0, 0.826);
+}
+
+.vision-board-title {
+    margin: 10px;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+.bottom-pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.japan-pic {
+    margin: 10px;
+    width: 240px;
+    height: 240px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+.korea-pic {
+    margin: 10px;
+    width: 240px;
+    height: 240px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+.third-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-pic {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+.second-pic {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+.third-pic {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(182, 247, 193);
+    border-radius: 30px;
+}
+
+
+/* Contents */
+
