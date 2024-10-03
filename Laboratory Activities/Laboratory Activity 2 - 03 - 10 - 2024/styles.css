@@ -40,6 +40,17 @@ body {
     align-items: center;
 }
 
+.column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghost {
+    width: 150px;
+}
+
 .goals-container{
     margin: 20px;
     width: 200px;
