@@ -212,6 +212,12 @@ body {
     letter-spacing: 10px;
 }
 
+#vision-icon {
+    color: var(--accent-color);
+    font-size: 90px;
+    transform: scaleX(-1);
+}
+
 /* Japan pic */
 
 .j-pic {
