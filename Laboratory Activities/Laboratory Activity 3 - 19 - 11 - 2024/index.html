@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word and Sentence Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+        <!-- Header -->
+        <div class="header-container">
+            <img id="counter_icon" src="/Laboratory Activities/Laboratory Activity 3 - 19 - 11 - 2024/assets/timer.png">
+            <h2>Word and Sentence Counter</h1>
+        </div>
+        <!-- Counter Container -->
+        <div class="counter-app">
+            <div class="input-container">
+                <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+            </div>
+            <div class="stats-container">
+                <!-- Word Count Display -->
+                <div class="stat-item wordCount-container">
+                    <div id="wordCount">Words: 0</div>
+                </div>
+                <!-- Sentence Count Display -->
+                <div class="stat-item sentenceCount-container">
+                    <div id="sentenceCount">Sentences: 0</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
