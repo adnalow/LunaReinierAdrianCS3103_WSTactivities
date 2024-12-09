@@ -21,24 +21,26 @@ This folder contains laboratory activities designed to test and showcase the ski
 
 #### Activities Included:
 1. **HTML Tables**  
-   <img src="Laboratory Activities/Laboratory Activity 1 - 05-09-2024/html-tables-output.png" alt="HTML Tables Output" width="200">  
+   <img src="Laboratory Activities/Laboratory Activity 1 - 05-09-2024/html-tables-output.png" alt="HTML Tables Output" width="600">  
    - Task: Create a class schedule using vanilla HTML (no CSS).  
    - Note: The output is simple and plain as external CSS was not yet introduced.
 
 2. **Vision Board**  
-   <img src="Laboratory Activities/Laboratory Activity 2 - 03 - 10 - 2024/visionboard-output.png" alt="Vision Board Output" width="200">  
+   <img src="Laboratory Activities/Laboratory Activity 2 - 03 - 10 - 2024/visionboard-output.png" alt="Vision Board Output" width="600">  
    - Task: Design a vision board using CSS, utilizing **flexbox** and other CSS styling techniques to make it visually appealing.
 
 3. **Word Sentence Counter**  
-   <img src="Laboratory Activities/Laboratory Activity 3 - 19 - 11 - 2024/word-sentence-ctr-output.png" alt="Word Sentence Counter Output" width="200">  
+   <img src="Laboratory Activities/Laboratory Activity 3 - 19 - 11 - 2024/word-sentence-ctr-output.png" alt="Word Sentence Counter Output" width="600">  
    - Task: Create a word and sentence counter integrating **JavaScript** for dynamic updates.  
    - Tools: HTML, CSS, and JavaScript.
 
 4. **Personal Page**  
-   <img src="Laboratory Activities/Laboratory Activity 4 - 28 - 11 - 2024/personal-page-output.png" alt="Personal Page Output" width="200">  
+   <img src="Laboratory Activities/Laboratory Activity 4 - 28 - 11 - 2024/personal-page-output.png" alt="Personal Page Output" width="600">  
    - Task: Improve a previous exercise and apply learnings gathered throughout the semester.  
    - Features: Various HTML, CSS, and JavaScript techniques to enhance interactivity.  
-   - 📹 [Watch the Demo Video](Laboratory Activities/Laboratory Activity 4 - 28 - 11 - 2024/Personal-Page-Output-Video.m4v)
+   - Feel free to watch the following video to see the full interactivity of this specific activity
+   - Directory:
+     - Laboratory Activities/Laboratory Activity 4 - 28 - 11 - 2024/Personal-Page-Output-Video.m4v
 
 ---
 
